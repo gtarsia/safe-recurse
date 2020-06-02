@@ -5,7 +5,7 @@
     "recursion",
     "safe"
   ],
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "esm.js",
   "module": "src/safe-recurse.js",
   "files": [
