@@ -1,7 +1,10 @@
 {
   "name": "safe-recurse",
   "description": "Safe recursion in js",
-  "keywords": ["recursion", "safe"],
+  "keywords": [
+    "recursion",
+    "safe"
+  ],
   "version": "0.0.0",
   "main": "esm.js",
   "module": "src/safe-recurse.js",
