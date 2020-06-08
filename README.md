@@ -39,6 +39,8 @@ const { run: fib, request, resolve } = safeRecurse(async (n) => {
 await fib(6) // => 8
 ```
 
+(You can run this example with `node fib.js`)
+
 As shown in the code,  
 
 When we have the result for a call without recursion, we `return resolve(argument, result)`.  
