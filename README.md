@@ -101,4 +101,4 @@ I could add support for **multiple** argument recursion functions, but I wanted 
 Implementation of **non-primitive** arguments (objects for example) is pretty hard because it's not trivial to *key* objects.  
 For example, in js `{a: 3}` is not strictly equal to another object `{a: 3}`.  
 If we were to `JSON.stringify` them, order of properties can ruin strict equality, for example `'{"a":3,"b":4}'` is not equal to `'{"b":4,"a":3}'`.  
-So we would have ensure order of properties, and also deep check that every value is `JSON.stringify` safe.
+So we would have ensure order of properties, and also deep check that every value is `JSON.stringify` safe.n, but even I don't think we're completely safe from any other language shenaningans.
